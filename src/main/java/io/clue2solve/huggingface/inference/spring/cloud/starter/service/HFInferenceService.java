@@ -1,4 +1,4 @@
-package io.clue2solve.spring.cloud.starter.huggingface.inference.service;
+package io.clue2solve.huggingface.inference.spring.cloud.starter.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 

@@ -1,4 +1,4 @@
-package io.clue2solve.spring.cloud.starter.huggingface.inference.autoconfigure;
+package io.clue2solve.huggingface.inference.spring.cloud.starter.autoconfigure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

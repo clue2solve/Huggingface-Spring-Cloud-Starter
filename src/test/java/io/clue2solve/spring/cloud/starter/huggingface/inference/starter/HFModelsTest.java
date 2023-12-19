@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.clue2solve.spring.cloud.starter.huggingface.inference.autoconfigure.RestTemplateAutoConfiguration;
-import io.clue2solve.spring.cloud.starter.huggingface.inference.service.HFModels;
+import io.clue2solve.huggingface.inference.spring.cloud.starter.service.HFModels;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

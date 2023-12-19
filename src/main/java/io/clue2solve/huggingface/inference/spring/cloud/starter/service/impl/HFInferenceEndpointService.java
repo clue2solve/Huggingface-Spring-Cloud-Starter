@@ -1,7 +1,7 @@
-package io.clue2solve.spring.cloud.starter.huggingface.inference.service.impl;
+package io.clue2solve.huggingface.inference.spring.cloud.starter.service.impl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import io.clue2solve.spring.cloud.starter.huggingface.inference.service.HFInferenceService;
+import io.clue2solve.huggingface.inference.spring.cloud.starter.service.HFInferenceService;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;

@@ -1,4 +1,4 @@
-package io.clue2solve.spring.cloud.starter.huggingface.inference.service;
+package io.clue2solve.huggingface.inference.spring.cloud.starter.service;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
