@@ -1,1 +1,2 @@
-io.clue2solve.aws.bedrock.springboot.starter.autoconfigure.aimodels.BedrockAutoConfiguration
+io.clue2solve.spring.cloud.starter.huggingface.inference.autoconfigure.RestTemplateAutoConfiguration
+io.clue2solve.spring.cloud.starter.huggingface.inference.service.HFModels
