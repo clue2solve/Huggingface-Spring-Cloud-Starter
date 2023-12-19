@@ -1,4 +1,4 @@
-# Huggingface-Spring-Cloud-Starter
+# Spring-Cloud-Huggingface-Starter
 [![Alpha](https://img.shields.io/badge/Release-Alpha-darkred)](https://img.shields.io/badge/Release-Alpha-darkred)
 [![Java CI](https://github.com/clue2solve/Huggingface-Spring-Cloud-Starter/actions/workflows/ci.yml/badge.svg)](https://github.com/clue2solve/Huggingface-Spring-Cloud-Starter/actions/workflows/ci.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/clue2solve/aws-bedrock-springtboot-starter/badge.svg?style=plastic)](https://snyk.io/test/github/clue2solve/aws-bedrock-springtboot-starter) 
