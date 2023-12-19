@@ -19,10 +19,8 @@ public class HFModels {
 
 	/**
 	 * Get all models
-	 * @return String
-	 * params:
-	 * pipeline_tag: str (the type of model : e.g., text-generation)
-	 * search: str (e.g., gpt2)
+	 * @return String params: pipeline_tag: str (the type of model : e.g.,
+	 * text-generation) search: str (e.g., gpt2)
 	 */
 	public String getModelsByFilter(String modelType, String modelId) {
 		try {
