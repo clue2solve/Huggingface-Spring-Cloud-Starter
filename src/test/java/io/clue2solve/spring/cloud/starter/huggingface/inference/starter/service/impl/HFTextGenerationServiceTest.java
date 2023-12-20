@@ -25,7 +25,7 @@ public class HFTextGenerationServiceTest {
 
 	@Test
 	public void HFInferenceEndpointServiceTestInvoke() throws Exception {
-		String response = hfInferenceService.invoke("the world or technology is heading towards");
+		String response = hfInferenceService.invoke("the world of technology is heading towards");
 
 		// Assert that the response is not null
 		assertNotNull(response);
