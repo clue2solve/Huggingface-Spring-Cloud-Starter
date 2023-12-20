@@ -1,2 +1,3 @@
 io.clue2solve.spring.cloud.starter.huggingface.inference.autoconfigure.RestTemplateAutoConfiguration
 io.clue2solve.spring.cloud.starter.huggingface.inference.service.HFModels
+io.clue2solve.huggingface.inference.spring.cloud.starter.autoconfigure.HuggingFaceInferenceAutoConfiguration
