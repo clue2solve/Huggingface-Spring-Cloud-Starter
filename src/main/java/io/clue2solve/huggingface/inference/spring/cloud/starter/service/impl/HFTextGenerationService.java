@@ -33,18 +33,29 @@ public class HFTextGenerationService implements HFInferenceService {
 
 		Map<String, Object> requestBodyMap = new HashMap<>();
 		requestBodyMap.put("inputs", prompt);
-		if (properties.topK() != null) requestBodyMap.put("top_k", properties.topK());
-		if (properties.topP() != null) requestBodyMap.put("top_p", properties.topP());
-		if (properties.temperature() != null) requestBodyMap.put("temperature", properties.temperature());
-		if (properties.repetitionPenalty() != null) requestBodyMap.put("repetition_penalty", properties.repetitionPenalty());
-		if (properties.maxNewTokens() != null) requestBodyMap.put("max_new_tokens", properties.maxNewTokens());
-		if (properties.maxTime() != null) requestBodyMap.put("max_time", properties.maxTime());
-		if (properties.returnFullText() != null) requestBodyMap.put("return_full_text", properties.returnFullText());
-		if (properties.numReturnSequences() != null) requestBodyMap.put("num_return_sequences", properties.numReturnSequences());
-		if (properties.doSample() != null) requestBodyMap.put("do_sample", properties.doSample());
+		if (properties.topK() != null)
+			requestBodyMap.put("top_k", properties.topK());
+		if (properties.topP() != null)
+			requestBodyMap.put("top_p", properties.topP());
+		if (properties.temperature() != null)
+			requestBodyMap.put("temperature", properties.temperature());
+		if (properties.repetitionPenalty() != null)
+			requestBodyMap.put("repetition_penalty", properties.repetitionPenalty());
+		if (properties.maxNewTokens() != null)
+			requestBodyMap.put("max_new_tokens", properties.maxNewTokens());
+		if (properties.maxTime() != null)
+			requestBodyMap.put("max_time", properties.maxTime());
+		if (properties.returnFullText() != null)
+			requestBodyMap.put("return_full_text", properties.returnFullText());
+		if (properties.numReturnSequences() != null)
+			requestBodyMap.put("num_return_sequences", properties.numReturnSequences());
+		if (properties.doSample() != null)
+			requestBodyMap.put("do_sample", properties.doSample());
 		if (properties.options() != null) {
-			if (properties.options().useCache() != null) requestBodyMap.put("use_cache", properties.options().useCache());
-			if (properties.options().waitForModel() != null) requestBodyMap.put("wait_for_model", properties.options().waitForModel());
+			if (properties.options().useCache() != null)
+				requestBodyMap.put("use_cache", properties.options().useCache());
+			if (properties.options().waitForModel() != null)
+				requestBodyMap.put("wait_for_model", properties.options().waitForModel());
 		}
 
 		ObjectMapper objectMapper = new ObjectMapper();
